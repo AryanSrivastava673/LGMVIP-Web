@@ -28,7 +28,7 @@ export default function TodoList() {
   const completeTask = id =>{
     let updatedTasks=todos.map(todo => {
       if(todo.id === id){
-        todo.isomplete = true;
+        todo.isComplete = true;
       }
       return todo;
     })
