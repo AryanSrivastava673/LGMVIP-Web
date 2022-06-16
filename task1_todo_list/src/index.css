@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: azure;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   
 }
